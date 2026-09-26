@@ -1,5 +1,7 @@
 # tokenforge — a BPE tokenizer trained from scratch
 
+[![tests](https://github.com/lukatkem/tokenforge/actions/workflows/tests.yml/badge.svg)](https://github.com/lukatkem/tokenforge/actions/workflows/tests.yml) ![tests](https://img.shields.io/badge/tests-15_passing-2ea44f)
+
 **The piece of infrastructure every LLM uses — trained from scratch in ~300 lines.**
 Byte-pair encoding: learn merge ranks from a corpus, encode any text to token ids,
 decode back losslessly. Byte-level base vocabulary, so nothing is ever out of
